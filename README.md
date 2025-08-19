@@ -18,24 +18,51 @@ O **BolsoCerto** é um aplicativo mobile desenvolvido como parte do projeto de e
 - React Native
 - JavaScript/TypeScript
 
-## Como executar
+# BolsoCerto
 
-1. Clone o repositório:
-   ```
-   git clone https://github.com/Pedro-hsr/projeto-extensao-estacio.git
-   ```
-2. Instale as dependências:
-   ```
-   npm install
-   ```
-3. Execute o app:
-   ```
-   npx expo start
-   ```
+Projeto móvel simples para controle de gastos pessoais usado no projeto de extensão.
 
-## Contribuição
+Este repositório contém uma app Expo/React Native (TypeScript) com telas para registrar transações, categorias e metas, além de gráficos de visualização (pizza e linha).
 
-Este projeto faz parte das atividades de extensão universitária e está aberto para sugestões e melhorias.
+## Principais funcionalidades
+
+- Registrar transações (descrição, valor, categoria)
+- Gerenciar categorias
+- Definir meta mensal e acompanhar progresso
+- Visualizações: gráfico de pizza (gastos por categoria) e gráfico de linha (gastos por mês)
+
+## Estrutura do projeto
+
+- `app/` — telas da aplicação (Dashboard, Transações, Nova Transação, Categorias, Metas)
+- `lib/` — lógica auxiliar (storage, analytics)
+- `assets/` — imagens e fontes
+- `package.json`, `app.json`, `tsconfig.json` — configuração do projeto
+
+## Requisitos
+
+- Node.js (recomendado LTS)
+- npm ou yarn
+- Expo CLI (opcional, pode usar `npx expo`)
+
+## Instalação e execução (PowerShell)
+
+1. Instalar dependências
+
+```powershell
+npm install
+# ou: yarn
+```
+
+2. Iniciar Metro/Expo
+
+```powershell
+npx expo start
+# para executar no dispositivo/emulador use as opções exibidas (qrcode / run on Android/iOS)
+```
+
+3. Testar no dispositivo
+
+- Abra o app Expo Go no Android/iOS e escaneie o QR code mostrado pelo `expo start`.
 
 ---
 
