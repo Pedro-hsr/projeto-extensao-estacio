@@ -10,7 +10,7 @@ export default function Layout() {
         options={{ title: "Nova Transação" }}
       />
       <Drawer.Screen name="categories" options={{ title: "Categorias" }} />
-      <Drawer.Screen name="goals" options={{ title: "Metas" }} />
+      <Drawer.Screen name="goals" options={{ title: "Meta de gastos" }} />
     </Drawer>
   );
 }

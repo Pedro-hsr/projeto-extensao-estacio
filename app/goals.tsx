@@ -40,7 +40,7 @@ export default function Goals() {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Metas Mensais</Text>
+      <Text style={styles.title}>Meta de Gastos</Text>
       <TextInput
         style={[styles.input, error && styles.inputError]}
         placeholder="Valor da meta"
